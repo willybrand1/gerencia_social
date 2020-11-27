@@ -1,1 +1,0 @@
-# gerencia_social
