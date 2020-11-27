@@ -11,3 +11,4 @@ $helper      = $loga->getRedirectLoginHelper();
 var_dump($helper);
 //https://github.com/rjanjic/PHP_INI_Read_Write
 //https://www.youtube.com/watch?v=M7-U1c5HCq0
+//https://github.com/facebookarchive/php-graph-sdk/tree/master/docs
