@@ -7,14 +7,7 @@ class FaceApp{
 
     public function __clone(){}
 
-    public function __construct(){
-        $this->ini        = $ini;
-        $this->msg        = $msg;
-        $this->fp         = $fp;
-        $this->fb         = $fb;
-        $this->dataToSave = $dataToSave;
-        $this->arr        = $arr;
-    }
+    public function __construct(){}
 
     public function addApp($appId,$appSecret,$name){
         $this->appId     = $appId;
@@ -50,7 +43,7 @@ class FaceApp{
                 $this->fb = [
                     'app_id' => $this->ini[$this->name]['appId'],
                     'app_secret' => $this->ini[$this->name]['appSecret'],
-                    'default_graph_version' => 'v2.10',
+                    'default_graph_version' => 'v9.0'
                 ];
 
                 return $this->fb;
