@@ -22,5 +22,8 @@
         <script src="config/js/jquery-3.5.1.js"></script>
         <script src="config/js/bootstrap.js"></script>
         <script src="config/js/all.js"></script>
+        <meta name="google-signin-client_id" content="857435506965-ikrolopct1q1a14urjnk0rqdbgptnp2u.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
     <body>

@@ -13,26 +13,41 @@ include_once 'estrutura/header.php';
             <img src="estrutura/logo.png" class="logo" />
         </div>
         <div>
-            <!-- <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
             <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
             <input type="button" class="fadeIn fourth mt-3" value="Entrar" onclick="validaUser();">
-            <input type="button" class="fadeIn fourth mt-3" value="Cadastrar" onclick="cadastraUser();">
-            <hr class="ml-4 mr-4"/> -->
-            <button onclick="loginFace('<?=$loginUrl?>');" class="fadeIn fourth mb-3 pl-5 pr-5" id="fb" name="fb">
-                Logar com Facebook&nbsp;
-                <i class="fab fa-facebook"></i>
-            </button>
-            <button onclick="loginFace('<?=$loginUrl?>');" class="fadeIn fourth mb-3 pl-5 pr-5" id="fb" name="fb">
-                Logar com Facebook&nbsp;
-                <i class="fab fa-facebook"></i>
-            </button>
+            <div class="divider">
+                <span>ou</span>
+            </div>
+            <div class="social">
+                <h4>Conectar com</h4>
+                <ul>
+                    <li style="width: 100%"> 
+                        <a href="#" class="facebook" onclick="loginFace('<?=$loginUrl?>');">
+                            <span class="fab fa-facebook"></span>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="#" class="twitter">
+                            <span class="fab fa-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="google-plus">
+                            <span class="fab fa-google-plus"></span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="mt-2">&nbsp;</div>
+            <!-- <div id="g-login" name="g-login" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+            <a href="#" onclick="signOut();">Sign out</a> -->
         </div>
         <div id="formFooter">
-            <a class="underlineHover" href="#">Esqueci minha senha?</a>
+            Não tem cadastro?<a class="underlineHover" href="index2.php">&nbsp;Cadastre-se</a>
         </div>
     </div>
 </div>
-<div id="myModalDiv"></div>
 <?php
 include_once 'estrutura/funcoesJs_login.php';
 include_once 'estrutura/footer.php';
